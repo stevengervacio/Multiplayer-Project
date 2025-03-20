@@ -8,7 +8,7 @@ public class NetworkTransformTest : NetworkBehaviour
    {
        if (IsServer)
        {
-           // Comment out or remove this code to stop automatic movement
+           // Removed this code to stop automatic movement
            // float theta = Time.time;
            // transform.position = new Vector3((float) Math.Cos(theta), 0.0f, (float) Math.Sin(theta));
        }
